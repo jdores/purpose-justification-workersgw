@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+
+# Environment and secrets
+.env
+.env.*
+.dev.vars
+
+# Dependencies
+node_modules/
+.opencode/node_modules/
+.opencode/bun.lock
+
+# Build and local tooling
+dist/
+coverage/
+.wrangler/
+
+# === Project-specific rules (uncommented by /kickoff) ===
+# After cloning this template and running /kickoff, the lines below are
+# automatically uncommented so that local-only files stay out of your
+# project's repository. Do not uncomment them in the template itself.
+
+.opencode/
+design/*
+!design/prd.md
+!design/change-request.md
